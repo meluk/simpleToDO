@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+      <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do List</title>
+  
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <body>
+
+        <div class="list-container">
+            <div class="list-header">
+                <div class="date">
+                    <span id="date"></span> <span id="month"></span> <span id="year"></span> <span id="day"></span>
+                </div>
+                <div class="data-to-add">
+                     <input type='text'  name="ListItem" placeholder="Add a task" id="todos"/>
+                     <div class="add-button" onclick="addItem(event, true)">
+                <!-- <span id="plus">+</span> -->
+            </div>
+                </div>
+            </div>
+            <div class="todos-container">
+                <ul class= "lists" id="the-to-do-list">    </ul>
+            </div>
+            
+        </div>
+
+    </body>
+    
+    <script  src="js/jquery-3.2.1.min.js"></script>
+    <script  src="js/index.js"></script>
+
+
+</body>
+</html>
